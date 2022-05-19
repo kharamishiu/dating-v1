@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import Header from './components/Header';
-import './App.css';
 import DatingCards from './components/DatingCards';
+import SwipeButtons from './components/SwipeButtons';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <DatingCards />
+      <SwipeButtons />
     </div>
   );
 }
